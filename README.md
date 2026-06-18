@@ -26,3 +26,24 @@
 - Восстановление всех связей
 
 ## 📁 Структура проекта
+
+school-management/
+├── src/
+│ ├── init.py
+│ ├── models.py # Модели данных
+│ ├── storage.py # Хранилище и операции
+│ ├── analytics.py # Аналитика
+│ └── logger_setup.py # Логирование
+├── data/
+│ ├── students.json # Студенты
+│ ├── teachers.json # Преподаватели
+│ └── courses.json # Курсы
+├── logs/
+│ └── school.log # Логи
+├── main.py # CLI
+└── README.md # Описание
+
+## 🚀 Запуск
+
+```bash
+python main.py
